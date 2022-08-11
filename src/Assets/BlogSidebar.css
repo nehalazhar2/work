@@ -1,0 +1,9 @@
+.Search_Results{
+    border-color: #a52449!important;
+}
+.Search_Results:hover,
+#sidebar_search:hover{
+    outline: none !important;
+    border-color: #a52449 !important;
+    box-shadow: 0 0 2px #a52449 !important;
+}

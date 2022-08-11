@@ -1,0 +1,30 @@
+.Page_Header>p{
+    color: #fff;
+    font-size: 19px !important;
+    line-height: 34px;
+    margin: 4px 0 0;
+    font-weight: 400 !important;
+    width: 60%;
+    font-family: Raleway, sans-serif !important;
+}
+.Page_Header>h2{
+    padding-bottom: 0!important;
+    text-transform: none!important;
+    font-size: 105px;
+    color: #a52449;
+    font-weight: 700;
+    font-family: Raleway, sans-serif;
+}
+@media (max-width:500px){
+    .Page_Header>h2{
+        color: #a52449;
+        font-size: 55px;
+        font-family: Raleway, sans-serif;
+    }
+}
+.page-header {
+    color: #fff;
+    padding: 15vh 0 0 0;
+    height: 500px !important;
+
+}

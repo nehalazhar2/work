@@ -1,0 +1,75 @@
+.Font_class {
+  font-size: 28px;
+  font-family: 'Nunito', sans-serif;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.Font_class:hover{
+  color: #a52449;
+}
+.P_class {
+  font-size: 18px;
+  text-align: left;
+  line-height: 28px;
+  font-weight: 400;
+  color: #7c8595;
+  font-family: 'Open Sans', sans-serif;
+}
+.Last_Read_more_class:hover {
+  cursor: pointer;
+  color: #a52449;
+}
+.block_class_img_rr_img {
+  min-height: 21.25rem;
+}
+.Class_Useded{
+    margin-right: 898px;
+  }
+ .Blog_Detail_div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ }
+ .Blog_Detail_img{
+   width: 100px;
+   height: 100px;
+ }
+ .HEading_Blog{
+  margin: -74px 156px 45px 0;
+ }
+ .Para_Blog_content{
+  text-align: justify;
+ }
+ .star-active {
+  color: #a52449;
+}
+.Fa_Star_values{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-family: 'Open Sans', sans-serif !important;
+}
+.Api_Rating_Class{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.Blog_Desc{
+  color: #707070;
+  font-size: 17px;
+  font-weight: 400;
+  margin: 13px 0;
+  text-align: left;
+  height: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 29px;
+  
+  }
+  .Blog_Img{
+    width: 600px !important;
+    height: 200px !important;
+  }

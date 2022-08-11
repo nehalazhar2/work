@@ -1,0 +1,112 @@
+.MainPostBody {
+  float: left;
+}
+
+.MainPostBody > img {
+  width: 100%;
+}
+.BlogMainText {
+  text-align: left !important;
+  color: #000;
+}
+.BlogMainText > h5 {
+  color: #a52449 !important;
+  font-size: 11px;
+  line-height: 2.545em;
+  font-weight: 400;
+  letter-spacing: 0.36em;
+  text-transform: uppercase;
+}
+.BlogMainText > h2 {
+  font-weight: 500;
+  color: #000;
+  font-size: 42px;
+  line-height: 1.19em;
+  letter-spacing: -0.02em;
+  /* margin: 25px 0; */
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+.BlogMainText p {
+  font-family: Open Sans, sans-serif;
+  letter-spacing: 0.1rem;
+  text-align: justify;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  margin: 10px 0 !important;
+  line-height: 1.406em !important;
+  color: #000000 !important;
+}
+.SideBar_Data {
+  margin: 35px 0 0;
+}
+.SideBar_Data > h3 {
+  margin-top: 3rem !important;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  color: #000;
+  font-size: 26px;
+  line-height: 1.273em;
+  letter-spacing: 0;
+  margin: 0 0 10px;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+.SideBar_Data > p {
+  color: #000000 !important;
+  letter-spacing: 0.0023rem;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 29px;
+  /* text-transform: uppercase; */
+  /* letter-spacing: 0.2rem; */
+}
+.SideBar_Data > a > h4 {
+  color: #000000 !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  line-height: 0.1rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.2rem !important;
+  cursor: pointer;
+  /* margin: 0!important; */
+}
+.SideBar_Data :hover{
+  text-decoration: none !important;
+  color: #a52449;
+}
+.SideBar_Data a h5 {
+  font-family: "Roboto", sans-serif;
+  color: #707070 !important;
+  text-align: left;
+  font-size: 11px !important;
+  font-weight: 500 !important;
+  /* line-height: 0.9rem !important; */
+  text-transform: uppercase !important;
+  letter-spacing: 0.2rem !important;
+  line-height: 1.2rem !important;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+.SideBar_Data > a > h4:hover,
+.SideBar_Data a h5:hover {
+  color: #a52449 !important;
+  font-weight: 500 !important;
+  border-bottom: #a52449 !important;
+}
+#sidebar_search {
+  background-color: transparent !important;
+  color: #a52449 !important;
+  border: 1px solid #a52449 !important;
+  border-left: 0 !important;
+  border-radius: 0 !important;
+}
+#BlogSearch {
+  border-right: 0 !important;
+  border-radius: 0 !important;
+}
+
+.MainBlog .BlogMainText {
+  padding-bottom: 3rem !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.149);
+}
