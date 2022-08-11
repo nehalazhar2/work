@@ -9,22 +9,22 @@ export const PostHeader = (props) => {
           <h4>{props.Title}</h4>
           {props.Category ? (
             <p>
-              <Link to="/">Home</Link> / <Link to="/news">News</Link>/ Category
+              Home / News / Category
               / {props.Title}
             </p>
           ) : props.Tag ? (
             <p>
-              <Link to="/">Home</Link> / <Link to="/news">News</Link> / Tag /{" "}
+              Home / News / Tag /{" "}
               {props.Title}
             </p>
           ) : props.Query ? (
             <p className="Search_Results">
-              <Link to="/">Home</Link> / <Link to="/news">News</Link> / Search
+              Home / News / Search
               Results / {props.Title}
             </p>
           ) : (
             <p>
-              <Link to="/">Home</Link> / <Link to="/news">News</Link> /{" "}
+              Home / News /{" "}
               {props.Title}
             </p>
           )}{" "}
